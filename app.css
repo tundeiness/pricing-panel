@@ -68,4 +68,26 @@ body{
     padding: 15px 25px;
     width: 100%;
     max-width: 960px;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    text-align:center;
+    text-transform: uppercase;
 }
+
+.pricing-plan{
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-plan:nth-child(3){
+    border-bottom: none;
+}
+
+.pricing-img{
+    margin-bottom:25px;
+    width:100%;
+    max-width: 100%;
+}
+
+
